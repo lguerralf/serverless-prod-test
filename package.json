@@ -1,0 +1,33 @@
+{
+  "name": "production-ready",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "integration-test": "env TEST_MODE=handler ./node_modules/.bin/mocha tests/test_cases --report spec",
+    "acceptance-test": "env TEST_MODE=http TEST_ROOT=https://zkphouagcc.execute-api.us-east-1.amazonaws.com/dev ./node_modules/.bin/mocha tests/test_cases --report spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "aws-sdk": "^2.756.0",
+    "aws4": "^1.10.1",
+    "awscred": "^1.5.0",
+    "axios": "^0.20.0",
+    "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
+    "chance": "^1.1.7",
+    "chancejs": "^0.0.8",
+    "cheerio": "^1.0.0-rc.3",
+    "co": "^4.6.0",
+    "lodash": "^4.17.20",
+    "mocha": "^8.1.3",
+    "mustache": "^4.0.1",
+    "promise-fs": "^2.1.1",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "superagent": "^6.1.0",
+    "superagent-promise": "^1.1.0"
+  }
+}

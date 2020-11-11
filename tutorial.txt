@@ -1,0 +1,12 @@
+last video
+
+writing acceptance test 
+https://learning.oreilly.com/videos/production-ready-serverless/10000MNLV201730/10000MNLV201730-cui_u03m03
+
+
+setting up a ci/cd pipeline for deployment lambda functions
+https://learning.oreilly.com/videos/production-ready-serverless/10000MNLV201730/10000MNLV201730-cui_u05m02
+
+
+implement notify restaurant steps
+https://learning.oreilly.com/videos/production-ready-serverless/10000MNLV201730/10000MNLV201730-cui_s07m03

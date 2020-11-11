@@ -1,0 +1,1 @@
+awslogs get "/aws/lambda/lguerra-ready-test-dev-get-index" ALL --watch --aws-region us-east-1 --stage dev --profile lguerra
